@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="21e1d4f4-1e59-4360-8721-f0358fc6cf89" name="https://github.com/leaalex/electric-scheme.git" url="http://https://github.com/leaalex/electric-scheme.git">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>
