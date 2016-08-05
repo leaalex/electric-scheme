@@ -9,15 +9,48 @@
     <link rel="stylesheet" href="css/main.css">
 
     <style>
-        #svg {
-            width: 818px;
-            height: 700px;
-        }
+    .container{
+      width: 800px;
+      height: 700px;
+      margin: 0 auto;
+      padding: 2px;
+    }
+    .tab-svg, .tab-graf{
+      border: 1px solid #e2e2e2;
+
+    }
+    .tab-svg{
+
+    }
+    .tab-graf{
+      display: none;
+    }
+    .button-tab{
+      background-color: #e8e8e8;
+      padding: 2px 6px;
+      border: 2px solid #e2e2e2;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      display: inline-block;
+    }
+
     </style>
 
 </head>
 <body>
-<svg id="svg">
+<div class="container">
+<div class="button-tab">
+  Конструктор электрической схемы
+</div>
+<div class="button-tab">
+  Расчет результатов
+</div>
+<div class="tab-graf">
+
+</div>
+
+<div class="tab-svg">
+<svg id="svg" viewBox="0 0 818 700">
     <!-- граница -->
     <rect height="260" width="2" y="40" x="730"></rect>
     <rect height="2" width="300" y="300" x="730"></rect>
@@ -104,7 +137,11 @@
 
 
 </svg>
+</div>
+<div class="propertes">
 
+</div>
+</div>
 
 <div id="modal_form"><!-- Модальное oкнo -->
     <span id="modal_close">X</span> <!-- Кнoпкa зaкрыть -->
