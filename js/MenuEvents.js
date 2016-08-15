@@ -175,6 +175,17 @@ function toolSettingClick() {// нажатие на инструмент нас�
 
 }
 
-
+function createGrid()
+{
+    for (var i = 0; i< 750;i = i + 40) {
+        for (var j = 0; j < 750; j = j + 40) {
+            var cir = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+            cir.setAttribute("r", 1);
+            cir.setAttribute("cy", i);
+            cir.setAttribute("cx", j);
+            SVG.appendChild(cir);
+        }
+    }
+}
 
 
